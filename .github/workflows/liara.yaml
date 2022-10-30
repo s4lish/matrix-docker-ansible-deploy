@@ -17,3 +17,4 @@ jobs:
         run: |
           npm i -g @liara/cli@3
           liara deploy --app="matrix" --api-token="$LIARA_TOKEN" --detach
+          
